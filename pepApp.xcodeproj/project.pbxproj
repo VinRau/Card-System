@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCAB9B423D5D5F60004966C /* pepApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3DCAB9B323D5D5F60004966C /* pepApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DCAB9BA23D5D5F60004966C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAB9B823D5D5F60004966C /* Interface.storyboard */; };
+		3DCAB9BC23D5D5F80004966C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAB9BB23D5D5F80004966C /* Assets.xcassets */; };
+		3DCAB9C323D5D5F80004966C /* pepApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DCAB9C223D5D5F80004966C /* pepApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DCAB9C823D5D5F80004966C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAB9C723D5D5F80004966C /* ContentView.swift */; };
+		3DCAB9CA23D5D5F80004966C /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAB9C923D5D5F80004966C /* HostingController.swift */; };
+		3DCAB9CC23D5D5F80004966C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAB9CB23D5D5F80004966C /* ExtensionDelegate.swift */; };
+		3DCAB9D223D5D5F90004966C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAB9D123D5D5F90004966C /* Assets.xcassets */; };
+		3DCAB9D523D5D5F90004966C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAB9D423D5D5F90004966C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCAB9B523D5D5F60004966C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCAB9A923D5D5F60004966C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCAB9B223D5D5F60004966C;
+			remoteInfo = "pepApp WatchKit App";
+		};
+		3DCAB9C423D5D5F80004966C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCAB9A923D5D5F60004966C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCAB9C123D5D5F80004966C;
+			remoteInfo = "pepApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DCAB9DD23D5D5F90004966C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DCAB9C323D5D5F80004966C /* pepApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAB9E123D5D5F90004966C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3DCAB9B423D5D5F60004966C /* pepApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3DCAB9AF23D5D5F60004966C /* pepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCAB9B323D5D5F60004966C /* pepApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pepApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCAB9B923D5D5F60004966C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3DCAB9BB23D5D5F80004966C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCAB9BD23D5D5F80004966C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCAB9C223D5D5F80004966C /* pepApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pepApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCAB9C723D5D5F80004966C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DCAB9C923D5D5F80004966C /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		3DCAB9CB23D5D5F80004966C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3DCAB9D123D5D5F90004966C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCAB9D423D5D5F90004966C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DCAB9D623D5D5F90004966C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCAB9D723D5D5F90004966C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCAB9BF23D5D5F80004966C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB9A823D5D5F60004966C = {
+			isa = PBXGroup;
+			children = (
+				3DCAB9B723D5D5F60004966C /* pepApp WatchKit App */,
+				3DCAB9C623D5D5F80004966C /* pepApp WatchKit Extension */,
+				3DCAB9B023D5D5F60004966C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCAB9B023D5D5F60004966C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB9AF23D5D5F60004966C /* pepApp.app */,
+				3DCAB9B323D5D5F60004966C /* pepApp WatchKit App.app */,
+				3DCAB9C223D5D5F80004966C /* pepApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB9B723D5D5F60004966C /* pepApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB9B823D5D5F60004966C /* Interface.storyboard */,
+				3DCAB9BB23D5D5F80004966C /* Assets.xcassets */,
+				3DCAB9BD23D5D5F80004966C /* Info.plist */,
+			);
+			path = "pepApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		3DCAB9C623D5D5F80004966C /* pepApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB9C723D5D5F80004966C /* ContentView.swift */,
+				3DCAB9C923D5D5F80004966C /* HostingController.swift */,
+				3DCAB9CB23D5D5F80004966C /* ExtensionDelegate.swift */,
+				3DCAB9D123D5D5F90004966C /* Assets.xcassets */,
+				3DCAB9D623D5D5F90004966C /* Info.plist */,
+				3DCAB9D723D5D5F90004966C /* PushNotificationPayload.apns */,
+				3DCAB9D323D5D5F90004966C /* Preview Content */,
+			);
+			path = "pepApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3DCAB9D323D5D5F90004966C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB9D423D5D5F90004966C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCAB9AE23D5D5F60004966C /* pepApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCAB9E223D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp" */;
+			buildPhases = (
+				3DCAB9AD23D5D5F60004966C /* Resources */,
+				3DCAB9E123D5D5F90004966C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCAB9B623D5D5F60004966C /* PBXTargetDependency */,
+			);
+			name = pepApp;
+			productName = pepApp;
+			productReference = 3DCAB9AF23D5D5F60004966C /* pepApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3DCAB9B223D5D5F60004966C /* pepApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCAB9DE23D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp WatchKit App" */;
+			buildPhases = (
+				3DCAB9B123D5D5F60004966C /* Resources */,
+				3DCAB9DD23D5D5F90004966C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCAB9C523D5D5F80004966C /* PBXTargetDependency */,
+			);
+			name = "pepApp WatchKit App";
+			productName = "pepApp WatchKit App";
+			productReference = 3DCAB9B323D5D5F60004966C /* pepApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3DCAB9C123D5D5F80004966C /* pepApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCAB9DA23D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp WatchKit Extension" */;
+			buildPhases = (
+				3DCAB9BE23D5D5F80004966C /* Sources */,
+				3DCAB9BF23D5D5F80004966C /* Frameworks */,
+				3DCAB9C023D5D5F80004966C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pepApp WatchKit Extension";
+			productName = "pepApp WatchKit Extension";
+			productReference = 3DCAB9C223D5D5F80004966C /* pepApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCAB9A923D5D5F60004966C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vincenzo Raucci";
+				TargetAttributes = {
+					3DCAB9AE23D5D5F60004966C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3DCAB9B223D5D5F60004966C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3DCAB9C123D5D5F80004966C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DCAB9AC23D5D5F60004966C /* Build configuration list for PBXProject "pepApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCAB9A823D5D5F60004966C;
+			productRefGroup = 3DCAB9B023D5D5F60004966C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCAB9AE23D5D5F60004966C /* pepApp */,
+				3DCAB9B223D5D5F60004966C /* pepApp WatchKit App */,
+				3DCAB9C123D5D5F80004966C /* pepApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCAB9AD23D5D5F60004966C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAB9B123D5D5F60004966C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAB9BC23D5D5F80004966C /* Assets.xcassets in Resources */,
+				3DCAB9BA23D5D5F60004966C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAB9C023D5D5F80004966C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAB9D523D5D5F90004966C /* Preview Assets.xcassets in Resources */,
+				3DCAB9D223D5D5F90004966C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCAB9BE23D5D5F80004966C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAB9CA23D5D5F80004966C /* HostingController.swift in Sources */,
+				3DCAB9C823D5D5F80004966C /* ContentView.swift in Sources */,
+				3DCAB9CC23D5D5F80004966C /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCAB9B623D5D5F60004966C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCAB9B223D5D5F60004966C /* pepApp WatchKit App */;
+			targetProxy = 3DCAB9B523D5D5F60004966C /* PBXContainerItemProxy */;
+		};
+		3DCAB9C523D5D5F80004966C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCAB9C123D5D5F80004966C /* pepApp WatchKit Extension */;
+			targetProxy = 3DCAB9C423D5D5F80004966C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCAB9B823D5D5F60004966C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAB9B923D5D5F60004966C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCAB9D823D5D5F90004966C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCAB9D923D5D5F90004966C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCAB9DB23D5D5F90004966C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pepApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pepApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3DCAB9DC23D5D5F90004966C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pepApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pepApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3DCAB9DF23D5D5F90004966C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				IBSC_MODULE = pepApp_WatchKit_Extension;
+				INFOPLIST_FILE = "pepApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3DCAB9E023D5D5F90004966C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				IBSC_MODULE = pepApp_WatchKit_Extension;
+				INFOPLIST_FILE = "pepApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3DCAB9E323D5D5F90004966C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DCAB9E423D5D5F90004966C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZT5486CL;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincenzo-Raucci.pepApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCAB9AC23D5D5F60004966C /* Build configuration list for PBXProject "pepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAB9D823D5D5F90004966C /* Debug */,
+				3DCAB9D923D5D5F90004966C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCAB9DA23D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAB9DB23D5D5F90004966C /* Debug */,
+				3DCAB9DC23D5D5F90004966C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCAB9DE23D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAB9DF23D5D5F90004966C /* Debug */,
+				3DCAB9E023D5D5F90004966C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCAB9E223D5D5F90004966C /* Build configuration list for PBXNativeTarget "pepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAB9E323D5D5F90004966C /* Debug */,
+				3DCAB9E423D5D5F90004966C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCAB9A923D5D5F60004966C /* Project object */;
+}

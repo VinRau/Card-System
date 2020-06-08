@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NBu-mt-KyX">
+    <device id="watch40"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Hosting Controller-->
+        <scene sceneID="RUd-og-cv4">
+            <objects>
+                <hostingController id="NBu-mt-KyX" customClass="HostingController" customModule="pepApp_WatchKit_App" customModuleProvider="target">
+                    <connections>
+                        <segue destination="0S2-NZ-5vr" kind="relationship" relationship="nextPage" id="ic0-8i-ZWZ"/>
+                    </connections>
+                </hostingController>
+            </objects>
+            <point key="canvasLocation" x="187" y="146"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="7GK-gY-XOb">
+            <objects>
+                <controller id="0S2-NZ-5vr">
+                    <items>
+                        <label alignment="left" text="Salve" id="MdY-fK-Wig"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="504" y="145"/>
+        </scene>
+    </scenes>
+</document>
